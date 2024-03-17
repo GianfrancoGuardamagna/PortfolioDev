@@ -1,0 +1,1 @@
+Los correos, direcciones, nombres fiscales e información sensible fué extraída del sitio actual de explorecost.com. Corroborar las páginas de "somos","legales" y "devoluciones" para evitar cualquier malentendido con los clientes.

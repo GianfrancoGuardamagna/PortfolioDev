@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"></script>
+    <script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/ownInputs.css">
+    <title>technologies</title>
+</head>
+
+<body>
+    <section id="background" class="h-screen flex flex-col items-center justify-center">
+        <div>
+        <p id="technologies_text" class="font-bold font-Montserrat text-subtitle text-center text-gray-50 -translate-y-40 animate__animated animate__zoomInUp">These are some of the technologies I've been working on.</p>
+        </div>
+        <div class="flex flex-row">
+        <img src="../utils/Images/htmlIcon.svg" alt="html icon" class="w-24">
+        <img src="../utils/Images/cssIcon.svg" alt="html icon" class="w-24">
+        <img src="../utils/Images/jsIcon.svg" alt="html icon" class="w-24">
+        <img src="../utils/Images/reactIcon.svg" alt="html icon" class="w-24">
+        <img src="../utils/Images/nodeIcon.svg" alt="html icon" class="w-24">
+        <img src="../utils/Images/gitIcon.svg" alt="html icon" class="w-24">
+        <img src="../utils/Images/pyIcon.svg" alt="html icon" class="w-24">
+        <img src="../utils/Images/rIcon.svg" alt="html icon" class="w-24">
+        </div>
+    </section>
+</body>
+<script>
+    VANTA.NET({
+        el: "#background",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x91c5,
+        size: 1,
+        backgroundColor: 0x31136e,
+    })
+</script>
+<script src="app/technologies.js"></script>
+
+</html>

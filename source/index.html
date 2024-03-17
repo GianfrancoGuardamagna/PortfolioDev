@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/ownInputs.css">
+    <title>Gianfranco Guardamagna</title>
+</head>
+
+<body>
+    <section id="background" class="h-screen flex flex-col bg-indigo-800">
+        <div class="flex h-4 p-4 place-self-start text-center">
+            <p>Gianfranco Guardamagna</p>
+        </div>
+        <div class="h-full w-full flex items-center justify-around place-self-center">
+            <div class="flex flex-col items-center justify-around gap-3">
+                <h1 class="font-bold font-Montserrat text-title text-center text-gray-50 typewriting">Developing your
+                    future...</h1>
+                <br>
+                <p class="font-bold font-Montserrat text-subtitle text-center text-gray-50 focus-in-contract-bck">
+                    SMARTER AND EFFECTIVE</p>
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    VANTA.NET({
+        el: "#background",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x91c5,
+        size: 1,
+        backgroundColor: 0x31136e,
+    })
+</script>
+<script src="app/index.js"></script>
+
+</html>
